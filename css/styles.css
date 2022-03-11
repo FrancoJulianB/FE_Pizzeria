@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+/*Parte del header*/
+header{
+    background-color: #222222;
+    height: 93px;
+    display:flex;
+    align-items:stretch;
+    padding:7px;
+}
+div.logo{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+img.logo{
+    margin: 10px;
+    height: 80px;
+    width: 92px;
+}
+div.logoTexto{
+    font-size: 24px;
+    font-weight: 700;
+}
+.pizza{
+    color:#39B24A;
+}
+.y{
+    color:whitesmoke
+}
+.Front{
+    color:red;
+}
+ul{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color:whitesmoke;
+    list-style-type: none;
+}
+header ul{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-grow: 1;
+}
+header ul li{
+    margin: 7px;
+}
+/*Parte de la seccion de articulos*/
+section{
+    display:flex;
+    margin: 35px 19px;
+    height:max-content;
+    min-height: 420px;
+}
+.envioGratis{
+    color:red;
+    background-image: url("../img/moto.png");
+    background-size: cover;
+    flex: 1;
+    margin:2.5px;
+}
+.textoEnvio{
+    margin: 20px;
+}
+span.comprando{
+    color:whitesmoke;
+}
+.podio{
+    flex: 1;
+    background-color: white;
+    margin:2.5px;
+}
+.top{
+    text-align: center;
+}
+.bottom{
+    display:flex;
+    align-self: center;
+}
+.bottomLeft{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+div ol{
+    font-weight: 700;
+    font-style: bold;
+}
+ol li{
+    margin-bottom: 10px;
+}
+.bottomRight{
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+img.arbol-pizza{
+    height: 129px;
+    width: 92px;
+    align-self: center;
+}
+
+/*Footer*/
+footer{
+    background-color: #222222;
+    height: 150px;
+    display:flex;
+    align-items:stretch;
+    padding:7px;
+}
+.footerLeft{
+    align-self: center;
+    flex-grow:1;
+}
+ul.footer li{
+    padding: 6px;
+}
+.footerRight{
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding:40px;
+}
